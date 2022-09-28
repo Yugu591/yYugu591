@@ -34,3 +34,35 @@ if choice=='//':
 #  it is also used for openning of a file and it delete the entire content present in the file and start from the beggining..
 #  if the file is not present,then it will create a new file
 #  it can be used for both reading and writting of a file
+Output:
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\chowd\OneDrive\Pictures> & "C:/Program Files/Python310/python.exe" c:/Users/chowd/OneDrive/Pictures/hello.py
+
+Please select the type of operation you want to perform:
++ for addition
+- for subtraction
+* for multiplication
+/ for division
+// for modular division
+*
+Enter your first number: 4
+Enter your second number: 8
+multiplication: 32
+PS C:\Users\chowd\OneDrive\Pictures> 
+#FROZEN SET:
+#frozen set is an immutable one which cannot be updated,added Or removed
+#Syntax : frozenset(iterable_object_name)
+#example of an frozen set:
+nu = ()
+ # converting tuple to frozenset
+fnum = frozenset(nu)
+ # printing empty frozenset object
+print("frozenset Object is : ", fnum)
+
+Output:
+frozenset Object is :  frozenset()
+
